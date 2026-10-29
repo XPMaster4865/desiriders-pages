@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy | DesiRiders</title>
-<style>body{font-family:Montserrat,Arial,sans-serif;background:#1a1a2e;color:#fff;max-width:720px;margin:0 auto;padding:24px;line-height:1.6}h1,h2{line-height:1.2}a{color:#e94560}</style></head>
+<style>body{font-family:Montserrat,Arial,sans-serif;background:#1a1a2e;color:#fff;max-width:720px;margin:0 auto;padding:24px;line-height:1.6}h1,h2{line-height:1.2}a{color:#e94560}li{margin-bottom:6px}</style></head>
 <body>
 <h1>DesiRiders app: Privacy Policy</h1>
-<p>Last updated: 21 September 2026 (version 1.2.0)</p>
-<p>This policy explains how the DesiRiders app ("the app") handles information. DesiRiders is a cycling club; contact us via <a href="https://desiriders.cc/contact.html">desiriders.cc/contact.html</a> or <a href="https://instagram.com/desiridersuk">@desiridersuk</a>.</p>
-<h2>What the app collects</h2>
-<p><strong>Contact form.</strong> If you use the contact form, the name, email address, subject and message you type are sent to the club through our form provider (Formspree) so we can reply. We use them only to respond to you.</p>
-<p><strong>On your phone.</strong> The app stores, on your device only, the rider profile you choose with "This is me", your best game scores, and a saved copy of the club ride data. This is not sent to us.</p>
-<p><strong>Rider accounts.</strong> If you sign in under "My rides", we use Google Firebase (Authentication and Cloud Firestore) to handle it. We store your email address and, if you sign in with Google, the name on your Google account. We store the trip details the club exec add for you, such as your flights, room, bike hire and kit size, so we can show them to you. You must verify your email address, and other riders cannot see your personal details. Only the club exec can view and edit them.</p>
-<h2>What the app does not do</h2>
-<p>The app has no advertising, no analytics and no location tracking.</p>
+<p>Last updated: 29 October 2026 (app version 1.25.0)</p>
+<p>This policy explains what the DesiRiders app ("the app") collects, why, who can see it and how to delete it. DesiRiders is a cycling club; contact us via <a href="https://desiriders.cc/contact.html">desiriders.cc/contact.html</a> or <a href="https://instagram.com/desiridersuk">@desiridersuk</a>.</p>
+
+<h2>Without signing in</h2>
+<p>You can use most of the app without an account. It then only keeps, on your phone, your best game scores and a saved copy of the club's public ride data. If you use the <strong>contact form</strong>, the name, email address, subject and message you type are sent to the club through our form provider (Formspree), and used only to reply to you.</p>
+
+<h2>Rider accounts</h2>
+<p>To see your own rides, you sign in under <strong>My rides</strong> with Google, Microsoft, or an email address and password. Sign-in is handled by Google Firebase Authentication. We store:</p>
+<ul>
+<li><strong>Your name and email address</strong>, and which ways you've chosen to sign in.</li>
+<li><strong>Your phone number</strong>, which you give when you sign up or under Personal details. It is only used so the exec can call you if you raise an SOS.</li>
+<li><strong>Which rider on our website you are</strong>, if the app matches you or you choose yourself, so your ride badges can be shown.</li>
+<li><strong>A notification code for each phone you're signed in on</strong>, so the app can send you alerts. Signing out removes that phone's code.</li>
+<li><strong>Trip details the club exec add for you</strong>, such as flights, booking references, hotel room and room-mates, and event registration references, so we can show them to you.</li>
+<li><strong>Requests to join a ride</strong> (your name, email and when you asked), which the exec are notified about and approve or decline.</li>
+</ul>
+<p>This is stored in Google Firebase (Cloud Firestore). Other riders can't see your personal details or trip details. The club exec can see and edit them.</p>
+
+<h2>Live location (live map)</h2>
+<p>The app has one live map for the club, used during rides so riders, the exec and the support car can find each other. Your location is only shared if you switch on <strong>Share my location</strong> on the Live map screen, and the app explains this before Android asks for permission.</p>
+<ul>
+<li>While sharing is on, your precise location is sent about every 15 to 30 seconds, <strong>including when the app is closed or not in use</strong> and while your phone is locked. Android shows a notification the whole time.</li>
+<li>If your phone restarts while sharing is on, the app turns sharing back on, or tells you if it can't.</li>
+<li>Your position is visible to the club exec, support car drivers, and riders the exec have given live map access.</li>
+<li>Only your latest position is kept. It is deleted as soon as you switch sharing off, tap Stop sharing in the notification, sign out, or delete your account. We don't keep a history of where you've been.</li>
+</ul>
+
+<h2>SOS alerts</h2>
+<p>If you raise an SOS, the app sends your name, email address, phone number, location at that moment (if your phone can get one) and the time to the club's server. The server:</p>
+<ul>
+<li>sends a push notification with these details to the club members the exec have chosen to receive SOS alerts, and</li>
+<li>sends a WhatsApp message with your name, the time, a map link to your location and your phone number to the club's emergency contact numbers.</li>
+</ul>
+<p>A log of each SOS is kept for the exec and SOS recipients for <strong>30 days</strong>, then deleted automatically.</p>
+
+<h2>Who processes your information</h2>
+<ul>
+<li><strong>Google</strong> (Firebase Authentication, Cloud Firestore, Firebase Cloud Messaging and Google Cloud, where the club's server runs): stores account data and delivers notifications. This may be processed outside the UK, including in the United States.</li>
+<li><strong>Microsoft</strong> and <strong>Google</strong>: only if you sign in with them.</li>
+<li><strong>WhatsApp</strong> (Meta): carries SOS messages to the club's emergency contacts.</li>
+<li><strong>OpenStreetMap</strong>: supplies the map pictures on the live map and SOS screens. Your phone downloads these directly, so their servers see your internet address.</li>
+<li><strong>Open-Meteo</strong>: supplies route weather. Only the ride's places are sent, not anything about you.</li>
+<li><strong>Formspree</strong>: delivers contact form messages.</li>
+</ul>
+<p>The app has no advertising and no analytics, and we never sell your information.</p>
+
 <h2>Information from our website</h2>
-<p>The app shows club information loaded from desiriders.cc, including rider names, photos and rides taken part in, as already published on our website. Kit photos are loaded from Google Drive. Links open other sites (for example WhatsApp, Instagram, YouTube and our sponsors), which have their own privacy policies.</p>
+<p>The app shows club information loaded from desiriders.cc, such as rider names, photos, the rides they've taken part in and the ride schedule, as already published on our website. Links open other sites (for example WhatsApp, Instagram, YouTube and our sponsors), which have their own privacy policies.</p>
+
 <h2 id="delete">Deleting your account and data</h2>
-<p>You can delete your rider account at any time inside the app: open <strong>My rides</strong>, scroll to the bottom and tap <strong>Delete my account</strong>. This removes your login and the trip details we hold for you (such as flights and room details). We keep your account and trip details until you delete them or ask us to.</p>
-<p>If you can't use the app, you can ask us to delete your account and data by messaging us through <a href="https://desiriders.cc/contact.html">desiriders.cc/contact.html</a> or <a href="https://instagram.com/desiridersuk">@desiridersuk</a>, using the email address you signed in with. See also <a href="delete-account.html">how to delete your account</a>.</p>
+<p>You can delete your account at any time in the app: open <strong>My rides</strong>, scroll to the bottom and tap <strong>Delete my account</strong>. This permanently removes your login, your profile (name, phone number, notification codes and website rider link), your trip details, your ride requests and your live map position. SOS alerts you've raised stay in the 30-day log until they're automatically deleted. Otherwise, we keep your account and details until you delete them or ask us to.</p>
+<p>If you can't use the app, ask us to delete your account and data through <a href="https://desiriders.cc/contact.html">desiriders.cc/contact.html</a> or <a href="https://instagram.com/desiridersuk">@desiridersuk</a>, using the email address you signed in with. See also <a href="delete-account.html">how to delete your account</a>. Your entry on the club's public rider list is separate from your app account; ask us if you'd like it changed or removed.</p>
+
 <h2>Your choices</h2>
-<p>You can clear the information stored on your phone by clearing the app's storage in Android settings or uninstalling the app. To have your rider account and trip details deleted, contact us and we will remove them. To ask us to change or remove your details from the club's rider list or to delete a contact-form message, contact us using the details above.</p>
+<ul>
+<li>Live location is off unless you switch it on, and you can switch it off at any time.</li>
+<li>You can change your name and phone number under <strong>My rides &gt; Personal details</strong>.</li>
+<li>You can turn notifications off in Android settings.</li>
+<li>You can clear what's stored on your phone by clearing the app's storage or uninstalling it.</li>
+</ul>
+
 <h2>Children</h2>
 <p>The app is a general club app and is not aimed at children under 13.</p>
+
 <h2>Changes</h2>
 <p>If this policy changes we will update this page and the date above.</p>
 </body></html>
